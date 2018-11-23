@@ -22,6 +22,8 @@ class ViewController: UIViewController {
     var timeView = UIView()
     var stopWatchView = UIView()
     var customTableView = UITableView()
+    var customCell = UITableViewCell()
+    
     
     override func loadView() {
         
@@ -131,6 +133,13 @@ class ViewController: UIViewController {
     func configureCustomTableView() {
         customTableView.backgroundColor = UIColor.green
         self.view.addSubview(customTableView)
+    }
+    
+    func configureCustomCell() {
+        
+        customCell = UITableViewCell(frame: CGRect(x: 5, y: 5, width: 100, height: 50))
+        customCell.selectionStyle = .none
+//        customCell.reuseIdentifier = "StopwatchCustomCell"
     }
     
     func configureConstraints() {
