@@ -1,0 +1,6 @@
+framework module Pods_5KCoach {
+  umbrella header "Pods-5KCoach-umbrella.h"
+
+  export *
+  module * { export * }
+}
