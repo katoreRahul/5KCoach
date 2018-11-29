@@ -13,6 +13,8 @@
 		E936A15621A560CF005E6ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E936A15521A560CF005E6ECA /* Assets.xcassets */; };
 		E936A15921A560CF005E6ECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E936A15721A560CF005E6ECA /* LaunchScreen.storyboard */; };
 		E9EC4A6721A6972200E02825 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EC4A6621A6972200E02825 /* SecondViewController.swift */; };
+		E9FD9EC721AFC5940097454D /* LapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FD9EC621AFC5940097454D /* LapTableViewCell.swift */; };
+		E9FFEF0521AD819A007B01EC /* LapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FFEF0421AD819A007B01EC /* LapModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		E936A15821A560CF005E6ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E936A15A21A560CF005E6ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9EC4A6621A6972200E02825 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E9FD9EC621AFC5940097454D /* LapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapTableViewCell.swift; sourceTree = "<group>"; };
+		E9FFEF0421AD819A007B01EC /* LapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapModel.swift; sourceTree = "<group>"; };
 		F26E0166D6A788C0C4588B98 /* Pods_5KCoach.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_5KCoach.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6795072655276E6FEA9F950 /* Pods-5KCoach.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5KCoach.release.xcconfig"; path = "Pods/Target Support Files/Pods-5KCoach/Pods-5KCoach.release.xcconfig"; sourceTree = "<group>"; };
 		FE4C2577B31834B1C39C1609 /* Pods-5KCoach.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5KCoach.debug.xcconfig"; path = "Pods/Target Support Files/Pods-5KCoach/Pods-5KCoach.debug.xcconfig"; sourceTree = "<group>"; };
@@ -80,10 +84,12 @@
 			children = (
 				E936A14E21A560CC005E6ECA /* AppDelegate.swift */,
 				E936A15021A560CC005E6ECA /* ViewController.swift */,
+				E9EC4A6621A6972200E02825 /* SecondViewController.swift */,
+				E9FFEF0421AD819A007B01EC /* LapModel.swift */,
+				E9FD9EC621AFC5940097454D /* LapTableViewCell.swift */,
 				E936A15521A560CF005E6ECA /* Assets.xcassets */,
 				E936A15721A560CF005E6ECA /* LaunchScreen.storyboard */,
 				E936A15A21A560CF005E6ECA /* Info.plist */,
-				E9EC4A6621A6972200E02825 /* SecondViewController.swift */,
 			);
 			path = 5KCoach;
 			sourceTree = "<group>";
@@ -208,8 +214,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9EC4A6721A6972200E02825 /* SecondViewController.swift in Sources */,
+				E9FD9EC721AFC5940097454D /* LapTableViewCell.swift in Sources */,
 				E936A15121A560CC005E6ECA /* ViewController.swift in Sources */,
 				E936A14F21A560CC005E6ECA /* AppDelegate.swift in Sources */,
+				E9FFEF0521AD819A007B01EC /* LapModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
